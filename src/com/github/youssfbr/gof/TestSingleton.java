@@ -1,6 +1,10 @@
 package com.github.youssfbr.gof;
 
-public class Test {
+import com.github.youssfbr.gof.singleton.SingletonEager;
+import com.github.youssfbr.gof.singleton.SingletonLazy;
+import com.github.youssfbr.gof.singleton.SingletonLazyHolder;
+
+public class TestSingleton {
 
 	public static void main(String[] args) {
 		
