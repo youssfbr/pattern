@@ -8,11 +8,9 @@ import com.github.youssfbr.gof.strategy.Robo;
 
 public class TestStrategy {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
 		
-		
-		
-		// Strategy
+		// Strategy - Faz uso do polimorfismo
 		Comportamento defensivo = new ComportamentoDefensivo();
 		Comportamento normal = new ComportamentoNormal();
 		Comportamento agressivo = new ComportamentoAgressivo();
